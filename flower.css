@@ -1,0 +1,209 @@
+html {
+    font-size: 6.25%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dimgray;
+    padding-left: 10rem;
+    overflow: hidden;
+    height: 50rem;
+}
+
+header h1 {
+    float: left;
+    padding-bottom: 10rem;
+    color: aliceblue;
+    font-size: 30rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 10rem;
+    line-height: 10rem;
+}
+
+header nav {
+    float: right;
+    padding-top: 20rem;
+    padding-right: 10rem;
+    padding-bottom: 20rem;
+}
+
+header nav a {
+    margin: 10rem;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20rem;
+    line-height: 2rem;
+}
+
+header nav a:hover {
+    color: aqua;
+    text-decoration: none;
+    border-bottom: solid cornsilk;
+}
+
+.flower {
+    padding-top: 20rem;
+    width: auto;
+    height: 650rem;
+    background-image: url(../flowerproject/image/flower1.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.flower div {
+    max-width: 500rem;
+    margin-left: 20%;
+    padding-top: 200rem;
+    padding-right: 400rem;
+}
+
+.flower div p {
+    font-family: 'Updock', cursive;
+    font-size: 30rem;
+}
+
+.flower div h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35rem;
+}
+
+.threeimage {
+    height: 300rem;
+    padding: 0;
+}
+
+.threeimage img {
+    width: 33.333%;
+    height: 300rem;
+    object-fit: cover;
+    float: left;
+}
+
+.quote div {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.firstgirl {
+    background-color: bisque;
+}
+
+.secondgirl {
+    background-color: rgb(203, 192, 192);
+}
+
+.quote img {
+    padding-top: 10rem;
+    border-radius: 100%;
+}
+
+.quote blockquote {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25rem;
+    margin-top: 10rem;
+    max-width: 400rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.quote p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 17rem;
+    margin-top: 10rem;
+    padding-top: 0;
+    font-weight: bold;
+}
+
+.relax {
+    height: 800rem;
+    background-image: url(../flowerproject/image/relax.jpg);
+    background-size: 100% 100%;
+}
+
+.logo {
+    padding-top: 5rem;
+    background-color: rgb(208, 119, 119);
+    height: 200rem;
+}
+
+.logo h1 {
+    text-align: center;
+    color: beige;
+    font-size: 30rem;
+}
+
+.fa-facebook {
+    color: white;
+    font-size: 50rem;
+    margin-left: 35%;
+}
+
+.fa-google {
+    color: white;
+    font-size: 50rem;
+    margin-left: 40rem;
+}
+
+.fa-wikipedia-w {
+    color: white;
+    margin-left: 40rem;
+    font-size: 50rem;
+}
+
+.fa-instagram {
+    color: white;
+    margin-left: 40rem;
+    font-size: 50rem;
+}
+
+.logo div {
+    margin-top: 40rem;
+}
+
+.fa-brands {
+    box-shadow: 0 0 20rem 2rem rgba(0, 0, 0, .1);
+    width: 80rem;
+    text-align: center;
+    padding-top: 10rem;
+    height: 60rem;
+    border-radius: 100%;
+}
+
+footer {
+    background-color: black;
+    height: 80rem;
+    padding-bottom: 10rem;
+}
+
+.fa-fan {
+    font-size: 60rem;
+    color: crimson;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+footer div p {
+    color: white;
+    float: right;
+    margin-right: 10rem;
+    font-size: 30rem;
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 5.58%;
+    }
+}
+
+@media(max-width:620px) {
+    html {
+        font-size: 4.5%;
+    }
+}
